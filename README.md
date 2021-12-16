@@ -385,7 +385,7 @@ GitHub creates the `bug`, `enhancement`, and `documentation` labels for you. Dep
 
 ## 🛡 License
 
-[![License](https://img.shields.io/github/license/ascii_parser/ascii_parser)](https://github.com/nathanesau/ascii_parser/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/nathanesau/ascii_parser)](https://github.com/nathanesau/ascii_parser/blob/master/LICENSE)
 
 This project is licensed under the terms of the `GNU GPL v3.0` license. See [LICENSE](https://github.com/nathanesau/ascii_parser/blob/master/LICENSE) for more details.
 
