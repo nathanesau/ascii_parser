@@ -1,4 +1,76 @@
-from . import constants
+ASCII_A = """
+.##..
+#..#.
+#..#.
+####.
+#..#.
+#..#.
+"""
+
+ASCII_L = """
+#....
+#....
+#....
+#....
+#....
+####.
+"""
+
+ASCII_R = """
+###..
+#..#.
+#..#.
+###..
+#.#..
+#..#.
+"""
+
+ASCII_E = """
+####.
+#....
+###..
+#....
+#....
+####.
+"""
+
+ASCII_K = """
+#..#.
+#.#..
+##...
+#.#..
+#.#..
+#..#.
+"""
+
+ASCII_F = """
+####.
+#....
+###..
+#....
+#....
+#....
+"""
+
+ASCII_U = """
+#..#.
+#..#.
+#..#.
+#..#.
+#..#.
+.##..
+"""
+
+# TODO: add other letters
+ASCII_LETTERS = {
+    "A": ASCII_A,
+    "L": ASCII_L,
+    "R": ASCII_R,
+    "E": ASCII_E,
+    "K": ASCII_K,
+    "F": ASCII_F,
+    "U": ASCII_U,
+}
 
 
 def parse(art: str) -> str:
@@ -24,7 +96,7 @@ def parse(art: str) -> str:
             "".join(c for c in line.strip()[i * 5 : (i * 5 + 5)])
             for line in art.splitlines()
         )
-        for k, v in constants.ASCII_LETTERS.items():
+        for k, v in ASCII_LETTERS.items():
             if s == v:
                 message += k
     return message
