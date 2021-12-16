@@ -15,8 +15,6 @@
 
 Awesome `ascii_parser` is a Python cli/package created with https://github.com/TezRomacH/python-package-template
 
-<!-- cookiecutter gh:TezRomacH/python-package-template --checkout v1.1.1 -->
-
 </div>
 
 ## Very first steps
