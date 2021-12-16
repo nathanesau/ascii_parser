@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Build status](https://github.com/nathanesau/ascii_parser/workflows/build/badge.svg?branch=master&event=push)](https://github.com/nathanesau/ascii_parser/actions?query=workflow%3Abuild)
+[![Build status](https://github.com/nathanesau/ascii_parser/workflows/build/badge.svg?branch=main&event=push)](https://github.com/nathanesau/ascii_parser/actions?query=workflow%3Abuild)
 [![Python Version](https://img.shields.io/pypi/pyversions/ascii_parser.svg)](https://pypi.org/project/ascii_parser/)
 [![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/nathanesau/ascii_parser/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
 
