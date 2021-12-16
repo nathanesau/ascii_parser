@@ -17,3 +17,6 @@ def get_version() -> str:
 
 
 version: str = get_version()
+
+# code provided by package
+from . import parser
